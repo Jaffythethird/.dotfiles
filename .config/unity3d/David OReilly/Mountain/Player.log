@@ -1,0 +1,71 @@
+Stacktrace:
+
+
+Native stacktrace:
+
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain_Data/Mono/x86_64/libmono.so(+0x91f55) [0x7fbaf15a9f55]
+	/usr/lib/libpthread.so.0(+0x147ff) [0x7fbaf80127ff]
+	/usr/lib/libc.so.6(gsignal+0x145) [0x7fbaf7b1dce5]
+	/usr/lib/libc.so.6(abort+0x12a) [0x7fbaf7b07856]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x9f864b]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain_Data/Mono/x86_64/libmono.so(+0xd1086) [0x7fbaf15e9086]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain_Data/Mono/x86_64/libmono.so(+0x34c3d) [0x7fbaf154cc3d]
+	/usr/lib/libpthread.so.0(+0x147ff) [0x7fbaf80127ff]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x1347ee3]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x49703a]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x49543b]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x49015d]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x18d532f]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x18fd54e]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x18ebdd9]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x18f05f9]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x18e1ba8]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0xddbff8]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0xddc41c]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0xddd134]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0xa2ec9e]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0xa31738]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0xa37eef]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0xa37fda]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x4f4436]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x819af2]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x45485c]
+	/usr/lib/libc.so.6(__libc_start_main+0xf2) [0x7fbaf7b09022]
+	/home/fryja/.local/share/Steam/steamapps/common/Mountain/Mountain.x86_64() [0x45e048]
+
+Debug info from gdb:
+
+
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+ture_storage_multisample GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced 
+GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robustness GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture
+_signed_rgba GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle 71142368
+Receiving unhandled NULL exception
+#0  0x007ffdce92a380 in funlockfile
+#1  0x007ffdce92a930 in std::multimap<unsigned int, DeferredSkinningOperation, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, DeferredSkinningOperation> > >::~multimap()
+#2  0x007ffdce92a950 in operator new(unsigned long)
+#3  0x007ffdce92a990 in operator new(unsigned long)
+#4  0x007ffdce92a9b0 in zcfree
+#5  0x007ffdce92a9e0 in FMOD::Memory_DefaultMalloc(unsigned int, unsigned int, char const*)
+#6  0x007ffdce92aa00 in FMOD::OutputALSA::initCallback(FMOD_OUTPUT_STATE*, int, unsigned int, int*, int, FMOD_SOUND_FORMAT*, int, int, void*)
+#7  0x007ffdce92aa20 in FMOD::SystemI::streamThread(void*)
+#8  0x007ffdce92aa50 in FMOD::SystemI::streamThread(void*)
+#9  0x007ffdce92acc0 in FMOD::MemPool::~MemPool()
+#10 0x007ffdce92acf0 in std::vector<core::basic_string<char, core::StringStorageDefault<char> >, std::allocator<core::basic_string<char, core::StringStorageDefault<char> > > >::~vector()
+#11 0x007ffdce92ad90 in std::vector<core::basic_string<char, core::StringStorageDefault<char> >, std::allocator<core::basic_string<char, core::StringStorageDefault<char> > > >::~vector()
+#12 0x007ffdce92aee0 in std::vector<core::basic_string<char, core::StringStorageDefault<char> >, std::allocator<core::basic_string<char, core::StringStorageDefault<char> > > >::~vector()
+#13 0x007ffdce92af00 in std::vector<core::basic_string<char, core::StringStorageDefault<char> >, std::allocator<core::basic_string<char, core::StringStorageDefault<char> > > >::~vector()
+#14 0x007ffdce92af70 in std::vector<core::basic_string<char, core::StringStorageDefault<char> >, std::allocator<core::basic_string<char, core::StringStorageDefault<char> > > >::~vector()
+#15 0x007ffdce92b1a0 in std::vector<core::basic_string<char, core::StringStorageDefault<char> >, std::allocator<core::basic_string<char, core::StringStorageDefault<char> > > >::~vector()
+#16 0x007ffdce92b1c0 in std::vector<core::basic_string<char, core::StringStorageDefault<char> >, std::allocator<core::basic_string<char, core::StringStorageDefault<char> > > >::~vector()
+#17 0x007ffdce92b1f0 in operator new(unsigned long)
+#18 0x007ffdce92b340 in std::vector<core::basic_string<char, core::StringStorageDefault<char> >, std::allocator<core::basic_string<char, core::StringStorageDefault<char> > > >::~vector()
+#19 0x007ffdce92b3d0 in zcfree
+#20 0x007ffdce92c1d0 in __libc_start_main
+#21 0x007ffdce92c2a0 in zcfree

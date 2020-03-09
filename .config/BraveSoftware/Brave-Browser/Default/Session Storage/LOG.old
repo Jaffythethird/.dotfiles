@@ -1,0 +1,24 @@
+2020/03/09-17:32:04.720 2a4 Reusing MANIFEST /home/fryja/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2020/03/09-17:32:04.721 2a4 Recovering log #28
+2020/03/09-17:32:04.722 2a4 Reusing old log /home/fryja/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000028.log 
+2020/03/09-17:33:51.913 32e Level-0 table #33: started
+2020/03/09-17:33:51.916 32e Level-0 table #33: 17505 bytes OK
+2020/03/09-17:33:51.919 32e Delete type=0 #28
+2020/03/09-17:54:27.986 32e Level-0 table #35: started
+2020/03/09-17:54:27.988 32e Level-0 table #35: 16237 bytes OK
+2020/03/09-17:54:27.991 32e Delete type=0 #32
+2020/03/09-18:08:56.967 32e Level-0 table #37: started
+2020/03/09-18:08:56.973 32e Level-0 table #37: 16405 bytes OK
+2020/03/09-18:08:56.975 32e Delete type=0 #34
+2020/03/09-18:23:11.433 32e Level-0 table #39: started
+2020/03/09-18:23:11.442 32e Level-0 table #39: 22494 bytes OK
+2020/03/09-18:23:11.444 32e Delete type=0 #36
+2020/03/09-18:23:11.445 32e Compacting 4@0 + 1@1 files
+2020/03/09-18:23:11.449 32e Generated table #40@0: 292 keys, 39890 bytes
+2020/03/09-18:23:11.449 32e Compacted 4@0 + 1@1 files => 39890 bytes
+2020/03/09-18:23:11.452 32e compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/09-18:23:11.452 32e Delete type=2 #39
+2020/03/09-18:23:11.452 32e Delete type=2 #30
+2020/03/09-18:23:11.452 32e Delete type=2 #35
+2020/03/09-18:23:11.452 32e Delete type=2 #37
+2020/03/09-18:23:11.452 32e Delete type=2 #33

@@ -1,0 +1,6 @@
+2020/03/09-18:48:11.643 1549 Reusing MANIFEST /home/fryja/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/03/09-18:48:11.644 1549 Recovering log #34
+2020/03/09-18:48:11.644 1549 Reusing old log /home/fryja/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000034.log 
+2020/03/09-18:48:19.361 15a8 Level-0 table #38: started
+2020/03/09-18:48:19.368 15a8 Level-0 table #38: 21770 bytes OK
+2020/03/09-18:48:19.371 15a8 Delete type=0 #34

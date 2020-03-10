@@ -1,3 +1,4 @@
+export TERM="xterm-256color"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -100,4 +101,9 @@ source $ZSH/oh-my-zsh.sh
 alias asuconnect="nmcli device wifi connect asu-visitor"
 alias ll="ls -al"
 alias wq="cd ./.."
+alias student2="student2.cs.appstate.edu"
 alias refreshmirrors="sudo reflector --latest 200 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
+alias vim="nvim"
+
+source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
+POWERLEVEL9K_DISABLE_RPROMPT=true

@@ -1,6 +1,0 @@
-2020/03/09-17:32:04.976 2c8 Reusing MANIFEST /home/fryja/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/03/09-17:32:04.976 2c8 Recovering log #31
-2020/03/09-17:32:04.977 2c8 Reusing old log /home/fryja/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000031.log 
-2020/03/09-17:54:32.950 32e Level-0 table #35: started
-2020/03/09-17:54:32.957 32e Level-0 table #35: 22401 bytes OK
-2020/03/09-17:54:32.960 32e Delete type=0 #31

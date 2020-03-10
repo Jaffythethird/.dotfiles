@@ -21,6 +21,11 @@
 URxvt*scrollBar: false
 URxvt.perl-ext-common: clipboard
 
+URxvt*font: xft:Droid\ Sans\ Mono\ for\ Powerline:size=10
+URxvt*letterspace: -2
+
 URxvt.clipboard.autocopy: true
 URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
+
+

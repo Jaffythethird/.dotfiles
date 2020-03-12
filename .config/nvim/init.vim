@@ -1,4 +1,4 @@
-call plug#begin('~/.dotfiles/nvim/plugged')
+call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/vim-easy-align'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
